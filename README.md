@@ -153,13 +153,3 @@ dotnet test
 ## 👋 Note
 
 This project was completed alongside other professional responsibilities. While time-constrained, the key parts were fully implemented, tested, and documented. A video walkthrough was skipped due to ongoing project work at the office.
-
----
-
-## ✉️ Contact
-
-**Joshua Peter Polaprayil**
-📧 [josh19peter96@gmail.com](mailto:josh19peter96@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/josh33-peter10/)
-
-```
