@@ -128,11 +128,11 @@ docker run -p 8080:8080 taskmanagerapi
 
 * Swagger: [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
-> ✅ Screenshots available: `dockerrun.png, dockerswagger.png`, 
+> ✅ Screenshots available: `dockerrun.png, dockerswagger.png, renderswagger.png`, 
 
 ### 🔗 Deployment (TBD):
 
-> Live link will be added once deployed to Render or Railway.
+* Render: [https://taskmanagerapi-4q0e.onrender.com/swagger/index.html](https://taskmanagerapi-4q0e.onrender.com/swagger/index.html)
 
 ---
 
