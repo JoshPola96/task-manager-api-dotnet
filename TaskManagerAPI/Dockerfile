@@ -2,12 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Copy csproj and restore dependencies
-COPY *.csproj ./
+# Copy csproj and restore dependencies from the TaskManagerAPI folder
+COPY TaskManagerAPI/*.csproj ./
 RUN dotnet restore
 
-# Copy everything else and build
-COPY . ./
+# Copy everything else from TaskManagerAPI folder
+COPY TaskManagerAPI/. ./
 RUN dotnet publish -c Release -o out
 
 # Runtime stage
