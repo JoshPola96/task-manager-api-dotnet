@@ -2,6 +2,14 @@
 
 > **Scope** · Timeboxed technical assessment · See [Scope & tradeoffs](#scope--tradeoffs)
 
+> [!NOTE]
+> **Built 2025. The ecosystem has moved since.**
+> Dependencies here are unpinned, so a clean `pip install` today resolves to
+> versions that did not exist when this was written and the .NET, EF Core and xUnit stack has moved on since. Expect install or
+> runtime breakage on a fresh environment. What is on offer is the engineering
+> approach and the decisions behind it, not a guaranteed-green build.
+> Happy to bring it current if that would be useful — just ask.
+
 Task and user management API with JWT authentication, role-based access, EF Core persistence, unit tests and a Docker build. Written against a five-part brief: API, database design, a debugging exercise, containerisation, and test coverage.
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)
